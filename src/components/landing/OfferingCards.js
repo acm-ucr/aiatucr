@@ -1,5 +1,5 @@
 import OfferingCard from "./OfferingCard";
-import { FaUserAlt } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa6";
 import { RiPresentationFill } from "react-icons/ri";
 import { GiPodium } from "react-icons/gi";
 import { LiaNewspaperSolid } from "react-icons/lia";
@@ -9,7 +9,7 @@ const Offerings = [
     title: "SEMINARS",
     description:
       "In-depth seminars offering insight into AI's latest technologies and advancements.",
-    icon: <FaUserAlt className="size-12 text-[#4F9AD7]" />,
+    icon: <FaUsers className="size-12 text-[#4F9AD7]" />,
   },
   {
     title: "GUEST SPEAKERS",
@@ -21,15 +21,15 @@ const Offerings = [
   null,
 
   {
-    title: "PROJECTS",
+    title: "COMPETITIONS",
     description:
-      "Collaborative projects that allow students to apply their knowledge in real-world scenarios.",
+      "Challenge yourself and team up with peers in our AI competitions. A chance to put theory into practice.",
     icon: <GiPodium className="size-12 text-[#4F9AD7]" />,
   },
   {
-    title: "COMMUNITY",
+    title: "AI NEWS AND OPPORTUNITIES",
     description:
-      "A community of like-minded individuals who share a passion for AI.",
+      "Stay informed with the most recent developments, breakthroughs, and job opportunities in the AI realm.",
     icon: <LiaNewspaperSolid className="size-12 text-[#4F9AD7]" />,
   },
 ];
@@ -44,7 +44,7 @@ const OfferingCards = ({}) => {
         We Offer...
       </h2>
       <div className="flex justify-center">
-        <div className="inline-grid grid-cols-3 gap-4 w-auto">
+        <div className="inline-grid grid-cols-3 gap-8 w-auto">
           {Offerings.map((offering, index) => (
             <OfferingCard
               key={index}
