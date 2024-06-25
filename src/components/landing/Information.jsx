@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "/public/transparent_logo_1.png";
+import image from "/public/transparent_logo_1.webp";
 // import { Hubballi } from "next/font/google";
 
 // const hubballi = Hubballi({
