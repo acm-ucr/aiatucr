@@ -17,9 +17,6 @@ const Offerings = [
       "Engaging sessions with AI experts, industry professionals, and prominent researchers.",
     icon: <RiPresentationFill className="size-12 text-[#4F9AD7]" />,
   },
-  null,
-  null,
-
   {
     title: "COMPETITIONS",
     description:
@@ -37,20 +34,15 @@ const Offerings = [
 const OfferingCards = ({}) => {
   return (
     <section className="p-4">
-      <h2
-        className="font-[Montserrat
-] text-4xl text-[#4F9AD7] text-center m-8"
-      >
-        We Offer...
-      </h2>
+      <h2 className="text-4xl text-[#4F9AD7] text-center m-8">We Offer...</h2>
       <div className="flex justify-center">
-        <div className="inline-grid grid-cols-3 gap-8 w-auto">
+        <div className="inline-grid grid-cols-3 gap-8 w-auto place-items-center">
           {Offerings.map((offering, index) => (
             <OfferingCard
               key={index}
-              title={offering?.title}
-              icon={offering?.icon}
-              description={offering?.description}
+              title={offering.title}
+              icon={offering.icon}
+              description={offering.description}
             />
           ))}
         </div>

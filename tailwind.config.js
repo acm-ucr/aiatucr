@@ -9,6 +9,10 @@ module.exports = {
   theme: {
     extend: {
       ai: {},
+      colors: {
+        "ai-event-blue": "#AEC6D8",
+        "ai-text-gray": "#2E2E2E",
+      },
     },
   },
   plugins: [],
