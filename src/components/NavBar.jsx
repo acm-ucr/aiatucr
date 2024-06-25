@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/public/logo.png";
+import logo from "@/public/logo.webp";
 import { items } from "@/data/Navigation";
 
 const NavBar = () => {
@@ -51,7 +51,7 @@ export default NavBar;
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/public/logo.png'; 
+import logo from '@/public/logo.webp'; 
 
 const NavBar = () => {
   return (
