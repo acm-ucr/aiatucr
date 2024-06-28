@@ -10,8 +10,13 @@ module.exports = {
     extend: {
       ai: {},
       colors: {
-        "ai-event-blue": "#AEC6D8",
-        "ai-text-gray": "#2E2E2E",
+        ai: {
+          "blue-100": "#AEC6D8",
+          "blue-200": "#9EBED7",
+          "blue-300": "#77AVD4",
+          "blue-400": "#4F9AD7",
+          gray: "#2E2E2E",
+        },
       },
     },
   },
