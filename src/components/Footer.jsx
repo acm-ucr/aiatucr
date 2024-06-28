@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AILogo from "@/public/images/aitransparentlogo.png";
+import AILogo from "@/public/images/aitransparentlogo.webp";
 import { FaDiscord } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
