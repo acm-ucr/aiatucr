@@ -1,17 +1,16 @@
 import Image from "next/image";
-import AILogo from "@/public/images/aitransparentlogo.png";
-import { FaDiscord } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="bg-ai-grey grid grid-cols-2 w-full pt-14 py-8">
       <div>
         <Image
-          src={AILogo}
+          src="/images/aitransparentlogo.png"
           alt="Club Logo"
           className="md:w-1/2 md:px-6 w-full px-2"
+          width={500}
+          height={500}
         />
       </div>
       <div className="grid grid-cols-3">
