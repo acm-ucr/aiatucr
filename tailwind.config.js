@@ -8,7 +8,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      ai: {},
       colors: {
         ai: {
           "blue-100": "#AEC6D8",
