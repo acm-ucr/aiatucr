@@ -8,7 +8,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      ai: {},
+      colors: {
+        ai: {
+          navbar: "#9EBED7",
+          header: "#4F9AD7",
+          buttons: "#77ABD4",
+          buttons_darker: "#5C8CB3",
+        },
+      },
     },
   },
   plugins: [],
