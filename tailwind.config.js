@@ -8,9 +8,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      ai: {},
       colors: {
-        customColor: {
+        ai: {
           navbar: "#9EBED7",
           header: "#4F9AD7",
           buttons: "#77ABD4",
