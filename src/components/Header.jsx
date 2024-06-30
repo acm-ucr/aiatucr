@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "/public/wireframe.png";
+import image from "/public/wireframe.webp";
 
 const Header = ({ text }) => {
   return (
