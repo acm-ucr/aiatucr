@@ -8,12 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        montserrat: ["Montserrat"],
-      },
       colors: {
         ai: {
-          "blue-400": "4F9AD7",
+          "blue-400": "#4F9AD7",
         },
       },
     },
