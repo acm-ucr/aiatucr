@@ -8,7 +8,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      ai: {},
+      fontFamily: {
+        montserrat: ["Montserrat"],
+      },
+      colors: {
+        ai: {
+          "blue-400": "4F9AD7",
+        },
+      },
     },
   },
   plugins: [],
