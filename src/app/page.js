@@ -1,5 +1,7 @@
+import Header from "/src/components/Header.jsx";
+
 const Home = () => {
-  return <>Hello World</>;
+  return <Header text="ACM"></Header>;
 };
 
 export default Home;
