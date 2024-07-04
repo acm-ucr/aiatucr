@@ -1,6 +1,6 @@
 import Image from "next/image";
-import circuitLeft from "/src/public/circuit-left.png";
-import circuitRight from "/src/public/circuit-right.png";
+import circuitLeft from "@/public/circuit-left.png";
+import circuitRight from "@/public/circuit-right.png";
 import { TiArrowSortedDown } from "react-icons/ti";
 
 const Introduction = () => {
