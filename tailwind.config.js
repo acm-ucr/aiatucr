@@ -8,7 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      ai: {},
+      colors: {
+        ai: {
+          "blue-400": "#4F9AD7",
+          "black-100": "#2E2E2E",
+        },
+      },
     },
   },
   plugins: [],
