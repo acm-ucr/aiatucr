@@ -7,7 +7,7 @@ const ProjectCardRight = ({ projectName, description }) => {
       {/* Image container */}
       <div className="relative w-full md:w-auto">
         <Image
-          src="/images/projectCard.png"
+          src="/images/projectCard.webp"
           alt=""
           width={833}
           height={436.31}
