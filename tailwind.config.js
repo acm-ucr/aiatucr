@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,6 +10,15 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontSize: {
+      "3xs": "0.375rem",
+      "2xs": "0.625rem",
+      ...defaultTheme.fontSize,
+    },
+    screens: {
+      xs: "475px",
+      ...defaultTheme.screens,
+    },
     extend: {
       colors: {
         ai: {
@@ -18,6 +30,9 @@ module.exports = {
           "blue-400": "#AEC6D8",
           "black-100": "#2E2E2E",
         },
+      },
+      height: {
+        "1/20": "5%",
       },
     },
   },
