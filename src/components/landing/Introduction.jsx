@@ -1,5 +1,5 @@
 import Image from "next/image";
-import circuitImage from "@/public/circuit.png";
+import circuitImage from "@/public/circuit.webp";
 import { TiArrowSortedDown } from "react-icons/ti";
 
 const Introduction = () => {
