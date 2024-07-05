@@ -1,5 +1,7 @@
+import React from "react";
+
 const Page = () => {
-  return <>Projects</>;
+  return <>projects</>;
 };
 
 export default Page;
