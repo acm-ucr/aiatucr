@@ -1,5 +1,7 @@
+import Introduction from "@/components/landing/Introduction";
+
 const Home = () => {
-  return <>Hello World</>;
+  return <Introduction />;
 };
 
 export default Home;
