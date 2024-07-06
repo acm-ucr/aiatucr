@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-ai-grey grid grid-cols-2 w-full pt-14 py-8">
       <div>
         <Image
-          src="/images/aitransparentlogo.png"
+          src="/images/aitransparentlogo.webp"
           alt="Club Logo"
           className="md:w-1/2 md:px-6 w-full px-2"
           width={500}
