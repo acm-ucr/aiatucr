@@ -1,5 +1,7 @@
+import OfferingCards from "@/components/landing/OfferingCards";
+
 const Home = () => {
-  return <>Hello World</>;
+  return <OfferingCards />;
 };
 
 export default Home;

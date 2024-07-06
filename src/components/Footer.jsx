@@ -3,7 +3,7 @@ import { FaDiscord, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-ai-grey grid grid-cols-2 w-full pt-14 py-8">
+    <div className="bg-ai-gray grid grid-cols-2 w-full pt-14 py-8">
       <div>
         <Image
           src="/images/aitransparentlogo.webp"
