@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <div className="pt-2 px-8 border-b-8 border-ai-navbar sticky top-0 bg-white flex justify-between items-center text-3xl">
       <Link href="/">
-        <Image src="/logo.png" alt="Logo" width={250} height={100} />
+        <Image src="/logo.webp" alt="Logo" width={250} height={100} />
       </Link>
       <div className="text-ai-buttons right-16 absolute md:flex justify-evenly w-1/2 font-semibold space-x-16 font-monda">
         {items.map((item, index) => (
