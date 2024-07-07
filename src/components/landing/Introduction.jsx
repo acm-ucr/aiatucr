@@ -4,7 +4,7 @@ import { TiArrowSortedDown } from "react-icons/ti";
 
 const Introduction = () => {
   return (
-    <div className="pt-8 flex items-stretch justify-between bg-ai-white-100 brightness-95">
+    <div className="pt-8 flex items-stretch justify-between bg-white brightness-95">
       <Image
         src={circuitImage}
         alt="Left Circuit Image"
@@ -13,25 +13,25 @@ const Introduction = () => {
 
       <div className="w-1/2 flex flex-col">
         <div className="flex flex-grow flex-col items-center justify-center">
-          <p className="whitespace-nowrap text-2xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-ai-black-100">
+          <p className="whitespace-nowrap text-2xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-black">
             AI @ UCR
           </p>
-          <p className="whitespace-nowrap text-3xs xs:text-2xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-ai-black-100">
+          <p className="whitespace-nowrap text-3xs xs:text-2xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-black">
             Empowering the Future of Tech
           </p>
         </div>
 
         <div className="flex flex-grow items-center justify-center">
-          <button className="relative w-6 h-6 xs:w-10 xs:h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-28 xl:h-28 bg-ai-blue-100 rounded-full text-ai-white-100">
-            <span className="block text-3xs xs:text-3xs sm:text-xs md:text-md lg:text-lg xl:text-2xl text-ai-white-100">
+          <button className="relative w-6 h-6 xs:w-10 xs:h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-28 xl:h-28 bg-ai-blue-500 rounded-full text-white">
+            <span className="block text-3xs xs:text-3xs sm:text-xs md:text-md lg:text-lg xl:text-2xl text-white">
               Learn
             </span>
-            <span className="block text-3xs xs:text-3xs sm:text-xs md:text-md lg:text-lg xl:text-2xl text-ai-white-100">
+            <span className="block text-3xs xs:text-3xs sm:text-xs md:text-md lg:text-lg xl:text-2xl text-white">
               More
             </span>
 
             <div className="absolute inset-x-0 bottom-0 flex justify-center">
-              <TiArrowSortedDown className="text-3xs xs:text-2xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl text-ai-white-100" />
+              <TiArrowSortedDown className="text-3xs xs:text-2xs sm:text-sm md:text-lg lg:text-xl xl:text-3xl text-white" />
             </div>
           </button>
         </div>
@@ -43,7 +43,7 @@ const Introduction = () => {
         className="w-1/4 ml-5 scale-x-[-1]"
       />
 
-      <div className="absolute inset-x-0 bottom-0 h-1/20 bg-gradient-to-t from-ai-gray-100 to-ai-white-100-brightness-95"></div>
+      <div className="absolute inset-x-0 bottom-0 h-1/20 bg-gradient-to-t from-ai-gray to-white-brightness-95"></div>
     </div>
   );
 };
