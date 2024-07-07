@@ -15,7 +15,7 @@ const ProjectCardRight = ({ projectName, description }) => {
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <p
-            className="text-blue-400 text-center"
+            className="text-ai-blue-500 text-center"
             style={{ fontSize: "clamp(1rem, 5vw, 2rem)" }}
           >
             {projectName}
