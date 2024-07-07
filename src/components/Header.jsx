@@ -3,7 +3,7 @@ import wireframe from "/public/wireframe.webp";
 
 const Header = ({ text }) => {
   return (
-    <div className="bg-ai-blue-400 h-48 flex items-center justify-between">
+    <div className="bg-ai-blue-500 h-48 flex items-center justify-between">
       <Image className="" src={wireframe} alt="Left wireframe" />
 
       <div className="py-10">
