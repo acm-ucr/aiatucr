@@ -1,7 +1,7 @@
-import Header from "/src/components/Header.jsx";
+import OfferingCards from "@/components/landing/OfferingCards";
 
 const Home = () => {
-  return <Header text="ACM"></Header>;
+  return <OfferingCards />;
 };
 
 export default Home;
