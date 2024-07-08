@@ -1,7 +1,7 @@
 const Card = ({ month, day, hour, name, location, description }) => {
   return (
     <div className="rounded-2xl flex flex-row justify-center drop-shadow-2xl mx-auto w-6/12">
-      <div className="bg-cyan-500 flex flex-col justify-center rounded-l-2xl text-[#ffffff] py-4 w-1/5">
+      <div className="bg-ai-blue-400 flex flex-col justify-center rounded-l-2xl text-[#ffffff] py-4 w-1/5">
         <div className="font-russo font-medium mt-3 text-center md:text-4xl">
           {month}
         </div>
