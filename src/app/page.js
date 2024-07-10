@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectCardRight from "@/components/landing/ProjectCardRight";
-import ProjectCardLeft from "@/components/landing/ProjectCardLeft";
+import ProjectCardRight from "@/components/projects/ProjectCardRight";
+import ProjectCardLeft from "@/components/projects/ProjectCardLeft";
 
 const Home = () => {
   return (
