@@ -1,18 +1,22 @@
 import Image from "next/image";
-import circuitImage from "@/public/circuit.png";
+import circuitImage from "@/public/circuit.webp";
 import { TiArrowSortedDown } from "react-icons/ti";
 
 const Introduction = () => {
   return (
-    <div className="pt-5 flex items-stretch justify-between bg-white">
-      <Image src={circuitImage} alt="Circuit Image" className="w-1/4 mr-5" />
+    <div className="pt-8 flex items-stretch justify-between bg-white brightness-95">
+      <Image
+        src={circuitImage}
+        alt="Left Circuit Image"
+        className="w-1/4 mr-5"
+      />
 
       <div className="w-1/2 flex flex-col">
         <div className="flex flex-grow flex-col items-center justify-center">
-          <p className="whitespace-nowrap text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-ai-black">
+          <p className="whitespace-nowrap text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-black">
             AI @ UCR
           </p>
-          <p className="whitespace-nowrap text-xs sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-4xl text-ai-black">
+          <p className="whitespace-nowrap text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-black">
             Empowering the Future of Tech
           </p>
         </div>
