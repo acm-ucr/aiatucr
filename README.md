@@ -11,11 +11,11 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[AI@UCR Website Figma Design File](https://www.figma.com/design/2EM9YBNePoBOtZlVFWsKMS/AI-%40-UCR?node-id=0-1&t=ru9XKYqqUoiK5owP-1)
 
 ## Node.js
 
-ACM UCR Website Template runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+AI@UCR Website runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 
