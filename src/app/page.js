@@ -1,7 +1,7 @@
-import OfferingCards from "@/components/landing/OfferingCards";
+import Introduction from "@/components/landing/Introduction";
 
 const Home = () => {
-  return <OfferingCards />;
+  return <Introduction />;
 };
 
 export default Home;
