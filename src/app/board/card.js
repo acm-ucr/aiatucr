@@ -1,16 +1,11 @@
-import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; 
-const Card = ({ title, description, github, linkedin }) => {
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import page from "./page.js";
+
+const card = (props) => {
   return (
-    <div className="card">
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <div className="icons">
-        <a href={github}><FaGithub size={30} /></a>
-        <a href={linkedin}><FaLinkedin size={30} /></a>
-      </div>
+    <div className="">
+      <p>props.name</p>
     </div>
   );
 };
-
-export default Card;
+export default card;
