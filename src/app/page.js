@@ -1,7 +1,15 @@
+import Introduction from "@/components/landing/Introduction";
+import Information from "@/components/landing/Information";
 import OfferingCards from "@/components/landing/OfferingCards";
 
 const Home = () => {
-  return <OfferingCards />;
+  return (
+    <>
+      <Introduction />;
+      <Information />;
+      <OfferingCards />;
+    </>
+  );
 };
 
 export default Home;
