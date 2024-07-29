@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profile from "@/public/images/board.png";
+import profile from "@/public/images/board.webp";
 const Board = () => {
   return (
     <div className="h-2/5 w-1/6 bg-ai-blue-400 rounded-lg">
