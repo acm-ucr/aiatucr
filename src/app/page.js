@@ -1,12 +1,15 @@
+import Introduction from "@/components/landing/Introduction";
+import Information from "@/components/landing/Information";
 import OfferingCards from "@/components/landing/OfferingCards";
 import Header from "@/components/Header";
 
 const Home = () => {
   return (
-    <div>
-      <Header text="MEET THE BOARD"></Header>
-      <OfferingCards></OfferingCards>
-    </div>
+    <>
+      <Introduction />;
+      <Information />;
+      <OfferingCards />;
+    </>
   );
 };
 
