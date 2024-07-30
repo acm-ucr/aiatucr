@@ -1,4 +1,4 @@
-import UpcomingEvents from "@/Components/Events/UpcomingEvents";
+import UpcomingEvents from "@/components/events/UpcomingEvents";
 
 const Page = () => {
   return <UpcomingEvents />;
