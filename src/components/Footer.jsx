@@ -3,7 +3,7 @@ import { FaDiscord, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-ai-gray grid grid-cols-2 w-full pt-14 py-8">
+    <div className="bg-ai-gray grid grid-cols-2 w-full pt-2 py-2">
       <div>
         <Image
           src="/images/aitransparentlogo.webp"
@@ -14,11 +14,11 @@ const Footer = () => {
         />
       </div>
       <div className="grid grid-cols-3">
-        <div className="col-span-2 md:pl-64 text-right text-white md:text-xl text-md md:pt-20 pt-16">
+        <div className="col-span-2 md:pl-64 text-right text-white md:text-lg text-sm md:pt-20 pt-16">
           <div className="pt-4">900 University Ave Riverside , CA 925217</div>
           <div className="pt-8">aiatucr@gmail.com</div>
         </div>
-        <div className="grid justify-items-end space-y-4 sm:px-12 md:px-12 pt-4">
+        <div className="grid justify-items-end space-y-1 sm:px-12 md:px-12 pt-4">
           <FaDiscord className="filter invert size-8" />
           <FaInstagram className="filter invert size-8" />
           <FaLinkedin className="filter invert size-8" />
