@@ -6,7 +6,6 @@ const Page = () => {
       <Header text={"PROJECTS"} />
     </>
   );
-  return <>Projects</>;
 };
 
 export default Page;
