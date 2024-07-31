@@ -1,5 +1,7 @@
+import UpcomingEvents from "@/components/events/UpcomingEvents";
+
 const Page = () => {
-  return <>Events</>;
+  return <UpcomingEvents />;
 };
 
 export default Page;
