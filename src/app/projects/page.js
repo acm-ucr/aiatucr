@@ -1,5 +1,11 @@
+import Header from "@/components/Header";
+
 const Page = () => {
-  return <>Projects</>;
+  return (
+    <>
+      <Header text={"PROJECTS"} />
+    </>
+  );
 };
 
 export default Page;

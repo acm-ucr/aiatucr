@@ -1,7 +1,13 @@
 import UpcomingEvents from "@/components/events/UpcomingEvents";
+import Header from "@/components/Header";
 
 const Page = () => {
-  return <UpcomingEvents />;
+  return (
+    <>
+      <Header text={"EVENTS"} />
+      <UpcomingEvents />
+    </>
+  );
 };
 
 export default Page;
