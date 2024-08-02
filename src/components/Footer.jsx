@@ -14,7 +14,7 @@ const Footer = () => {
         />
       </div>
       <div className="grid grid-cols-3">
-        <div className="col-span-2 md:pl-64 text-right text-white md:text-lg text-sm md:pt-20 pt-16">
+        <div className="col-span-2 md:pl-52 text-right text-white md:text-lg text-sm md:pt-20 pt-16">
           <div className="pt-4">900 University Ave Riverside , CA 925217</div>
           <div className="pt-8">aiatucr@gmail.com</div>
         </div>
