@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 const Board = ({ name, image, email, role }) => {
   return (
     <div className="h-2/5 w-1/6 rounded-3xl drop-shadow-lg flex flex-col">
@@ -25,5 +26,4 @@ const Board = ({ name, image, email, role }) => {
     </div>
   );
 };
-
 export default Board;
