@@ -3,7 +3,7 @@ import aiAtUcrLogo from "@/public/transparent_logo_1.webp";
 
 const Information = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center">
+    <div className="flex flex-col md:flex-row items-center shadow-top-bottom">
       <div className="w-full md:w-1/2 md:ml-4 mb-4 md:mb-0">
         <Image
           className="object-contain w-full h-auto"

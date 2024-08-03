@@ -20,6 +20,10 @@ module.exports = {
           gray: "#323232",
         },
       },
+      boxShadow: {
+        "top-bottom":
+          "0 -5px 5px -5px rgba(0, 0, 0, 0.3), 0 5px 5px -5px rgba(0, 0, 0, 0.3)",
+      },
     },
   },
   plugins: [],
