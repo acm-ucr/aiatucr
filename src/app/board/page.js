@@ -1,5 +1,5 @@
-import Board from "@/Components/board/Board";
+import Boards from "@/components/board/Boards";
 const Page = () => {
-  return <Board />;
+  return <Boards/>;
 };
 export default Page;
