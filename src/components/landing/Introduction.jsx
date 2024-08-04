@@ -4,7 +4,7 @@ import { TiArrowSortedDown } from "react-icons/ti";
 
 const Introduction = () => {
   return (
-    <div className="pt-8 flex items-stretch justify-between bg-white">
+    <div className="pt-8 flex items-stretch justify-between bg-white drop-shadow-xl">
       <Image src={circuitImage} alt="Left Circuit Image" className="w-1/4" />
 
       <div className="w-1/2 flex flex-col items-center justify-center gap-y-4">
