@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 const Home = () => {
   return (
     <>
-      <Introduction />;
+      <Introduction />;<Header></Header>
       <Information />;
       <OfferingCards />;
     </>
