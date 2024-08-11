@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="pt-4">900 University Ave Riverside , CA 925217</div>
           <div className="pt-8">aiatucr@gmail.com</div>
         </div>
-        <div className="grid justify-items-end space-y-1 sm:px-12 md:px-12 pt-4">
+        <div className="grid justify-items-end space-y-1 px-4 sm:px-8 md:px-10 lg:px-12 pt-4">
           <FaDiscord className="filter invert size-8" />
           <FaInstagram className="filter invert size-8" />
           <FaLinkedin className="filter invert size-8" />
