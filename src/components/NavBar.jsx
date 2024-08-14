@@ -15,8 +15,8 @@ const NavBar = () => {
 
   return (
     <div className="pt-2 px-8 border-b-8 border-ai-blue-300 sticky top-0 z-30 bg-white flex justify-between items-center text-3xl">
-      <Link href="/">
-        <Image src="/logo.webp" alt="Logo" width={250} height={100} />
+      <Link href="/" classname="mt-1">
+        <Image src="/logo.webp" alt="Logo" width={200} height={100} />
       </Link>
       <div className="text-ai-blue-400 hidden md:flex ml-auto text-xl justify-between lg:w-2/5 md:w-7/12 font-semibold font-monda">
         {items.map((item, index) => (
