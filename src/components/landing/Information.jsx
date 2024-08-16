@@ -5,10 +5,10 @@ const Information = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col md:flex-row items-center bg-white drop-shadow-xl">
+        <div className="flex flex-row md:flex-row items-center bg-white drop-shadow-xl">
           <div className="w-full md:w-1/2 md:ml-4 mb-4 md:mb-0">
             <Image
-              className="object-contain w-full h-auto"
+              className="object-contain md:object-scale-down md:w-full w-60 h-auto"
               src={aiAtUcrLogo}
               alt="AI@UCR Logo"
             />
