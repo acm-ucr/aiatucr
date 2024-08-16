@@ -28,7 +28,6 @@ const CalendarEvent = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-
         // incorrect api information
         const response = await fetch(
           `https://www.googleapis.com/calendar/v3/calendars/${
