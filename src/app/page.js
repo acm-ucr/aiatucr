@@ -5,9 +5,9 @@ import OfferingCards from "@/components/landing/OfferingCards";
 const Home = () => {
   return (
     <>
-      <Introduction />;
-      <Information />;
-      <OfferingCards />;
+      <Introduction />
+      <Information />
+      <OfferingCards />
     </>
   );
 };
