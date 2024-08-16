@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Calendar from "@/components/calendar/Calendar";
 
 const UpcomingEvents = () => {
   return (
@@ -28,6 +29,7 @@ const UpcomingEvents = () => {
           }
         />
       </div>
+      <Calendar />
     </div>
   );
 };
