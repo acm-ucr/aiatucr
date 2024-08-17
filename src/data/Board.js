@@ -1,4 +1,5 @@
-import Image from "@/public/images/board.png";
+import Image from "@/public/images/board.webp";
+
 export const boards = [
   {
     name: "John Doe",
