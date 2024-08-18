@@ -1,6 +1,6 @@
 const CustomEvent = ({ event }) => {
   return (
-    <div className="font-playfair md:text-xs sm:text-[10px] text-[7px] flex justify-center">
+    <div className="font-playfair md:text-xs sm:text-[10px] text-[7px] flex justify-center ">
       <div className="m-0">
         {!event.allDay &&
           new Date(event.start).toLocaleTimeString(navigator.language, {
