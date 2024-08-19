@@ -77,7 +77,7 @@ const CalendarEvent = () => {
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }}
         >
-          <div className="flex justify-center h-[90vh] sm:h-60[vh] w-full font-righteous relative">
+          <div className="flex justify-center lg:h-[90vh] h-[60vh] w-full font-righteous relative">
             <Calendar
               date={date}
               className="w-full m-0 p-0 text-md md:text-2xl flex justify-center overflow-hidden"
