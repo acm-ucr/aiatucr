@@ -103,7 +103,7 @@ const CalendarEvent = () => {
               eventPropGetter={() => {
                 return {
                   className:
-                    "p-0 m-0 !active:ring-0 !focus:outline-0 !bg-black -translate-y-2 h-5",
+                    "!p-0 !active:ring-0 !focus:outline-0 !bg-transparent",
                 };
               }}
               onSelectEvent={(event) => setEvent(event)}
