@@ -25,13 +25,13 @@ const CustomToolbar = ({ onNavigate, date }) => {
           />
         </div>
       </div>
-      <div className="flex flex-row gap-2 md:gap-4 xl:w-full justify-center xl:justify-end items-center">
-        <button className="bg-ai-blue-400 px-2 py-1 md:px-4 md:py-2 rounded-full flex justify-center items-center text-xs text-nowrap flex-nowrap text-white truncate">
-          <PiBrainBold className="text-sm mr-2" />
+      <div className="flex flex-row gap-2 lg:gap-4 xl:w-full justify-center xl:justify-end items-center">
+        <button className="bg-ai-blue-400 px-2 py-1 lg:px-4 lg:py-2 rounded-full flex justify-center items-center text-[9px] md:text-sm text-nowrap flex-nowrap text-white ">
+          <PiBrainBold className="text-sm md:text-lg mr-2" />
           Artificial Intelligence
         </button>
-        <button className="bg-ai-blue-400 px-2 py-1 md:px-4 md:py-2 rounded-full flex justify-center items-center text-xs  text-nowrap flex-nowrap text-white truncate">
-          <FaComputer className="text-sm mr-2" />
+        <button className="bg-ai-blue-400 px-2 py-1 lg:px-4 lg:py-2 rounded-full flex justify-center items-center text-[9px] md:text-sm text-nowrap flex-nowrap text-white ">
+          <FaComputer className="text-sm md:text mr-2" />
           Machine Learning
         </button>
       </div>
