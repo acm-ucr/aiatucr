@@ -68,7 +68,7 @@ const CalendarEvent = () => {
 
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <section className="md:w-1/2 w-2/3 flex justify-center items-center flex-col mt-[2vh]">
+      <section className="md:w-10/12 w-full flex justify-center items-center flex-col mt-[2vh]">
         <motion.div
           className="w-full flex justify-center items-center"
           variants={animation}
