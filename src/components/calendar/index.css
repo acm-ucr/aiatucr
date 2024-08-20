@@ -41,7 +41,20 @@
 }
 
 .rbc-date-cell {
-  text-align: center;
+  text-align: right;
+  font-size: x-small;
+}
+
+@media only screen and (min-width: 1024px) {
+  .rbc-date-cell {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .rbc-date-cell {
+    font-size: large;
+  }
 }
 
 .rbc-row-segment {
