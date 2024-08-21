@@ -14,7 +14,7 @@ const Information = () => {
             />
           </div>
           <div className="w-full md:w-7/12 px-4">
-            <p className="text-md md:text-4xl leading-tight text-center my-8">
+            <p className="text-xl md:text-4xl leading-tight text-center my-8">
               AI at UCR is the hub for all things Artificial Intelligence. We
               are committed to introducing AI and ML enthusiasts to the wider
               horizons of this evolving field.
