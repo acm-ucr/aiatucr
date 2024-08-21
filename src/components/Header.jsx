@@ -7,7 +7,9 @@ const Header = ({ text }) => {
       <Image className="w-1/5 h-full" src={wireframe} alt="Left wireframe" />
 
       <div className="py-2">
-        <p className="text-center text-white text-4xl font-semibold">{text}</p>
+        <p className="text-center text-white text-2xl sm:text-3xl md:text-4xl font-semibold">
+          {text}
+        </p>
       </div>
 
       <Image
