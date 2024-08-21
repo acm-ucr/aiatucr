@@ -3,23 +3,21 @@ import wireframe from "/public/wireframe.webp";
 
 const Header = ({ text }) => {
   return (
-    <header className="bg-ai-blue-400 flex items-center justify-between">
-      <Image
-        className="sm:w-1/3 md:w-1/2 lg:w-1/5"
-        src={wireframe}
-        alt="Left wireframe"
-      />
+    <div className="bg-ai-blue-400 flex items-center justify-between">
+      <Image className="w-1/5 h-full" src={wireframe} alt="Left wireframe" />
 
-      <div className="py-10 text-center text-white text-4xl font-semibold">
-        {text}
+      <div className="py-2">
+        <p className="text-center text-white text-2xl sm:text-3xl md:text-4xl font-semibold">
+          {text}
+        </p>
       </div>
 
       <Image
-        className="sm:w-1/3 md:w-1/4 lg:w-1/5 rotate-180"
+        className="rotate-180 w-1/5 h-full"
         src={wireframe}
         alt="Right wireframe"
       />
-    </header>
+    </div>
   );
 };
 
