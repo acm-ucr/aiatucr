@@ -1,10 +1,11 @@
-import Board from "@/components/board/Board";
+import Boards from "@/components/board/Boards";
 import Header from "@/components/Header";
+
 const Page = () => {
   return (
     <>
       <Header text={"MEET THE BOARD"} />
-      <Board />
+      <Boards />
     </>
   );
 };
