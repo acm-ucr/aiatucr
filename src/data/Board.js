@@ -1,9 +1,9 @@
 import Image from "@/public/images/board.png";
-import Image1 from "@/images/steeg.png";
-import Image4 from "@/images/sazen.png";
-import Image6 from "@/images/IMG_9507.jpg";
-import Image7 from "@/images/IMG_9453.jpg";
-import Image8 from "@/images/JonnyZMeetTheStaffPhoto.png";
+import Image1 from "@/public/images/steeg.png";
+import Image6 from "@/public/images/IMG_9507.jpg";
+import Image7 from "@/public/images/IMG_9453.jpg";
+import Image8 from "@/public/images/JohnnyZMeetTheStaffPhoto.png";
+import { FaGithub, FaLinkedIn } from "react-icons/fa";
 export const boards = [
   {
     name: "Dr. Greg Ver Steeg",
@@ -18,11 +18,11 @@ export const boards = [
     role: "President",
     icon: [
       {
-        component: <Github />,
+        component: <FaGithub />,
         href: "https://github.com/mchen04",
       },
       {
-        component: <LinkedIn />,
+        component: <FaLinkedIn />,
         href: "https://www.linkedin.com/in/michael-luo-chen",
       },
     ],
@@ -36,15 +36,15 @@ export const boards = [
   {
     name: "Sazen Shakya",
     email: "sazen2015@gmail.com",
-    image: Image4,
+    image: Image,
     role: "Finance Chair",
     icon: [
       {
-        component: <Github />,
+        component: <FaGithub />,
         href: "https://github.com/sshakya03",
       },
       {
-        component: <LinkedIn />,
+        component: <FaLinkedIn />,
         href: "https://www.linkedin.com/in/sazen-shakya/",
       },
     ],
@@ -56,11 +56,11 @@ export const boards = [
     role: "Secretary",
     icon: [
       {
-        components: <Github />,
+        components: <FaGithub />,
         href: "https://github.com/MrFrooty",
       },
       {
-        components: <LinkedIn />,
+        components: <FaLinkedIn />,
         href: "https://www.linkedin.com/in/freddysong/",
       },
     ],
@@ -72,11 +72,11 @@ export const boards = [
     role: "Director of Internal Affairs",
     icon: [
       {
-        component: <Github />,
+        component: <FaGithub />,
         href: "https://github.com/meganyipp",
       },
       {
-        component: <LinkedIn />,
+        component: <FaLinkedIn />,
         href: "https://www.linkedin.com/in/meganyip04",
       },
     ],
@@ -88,7 +88,7 @@ export const boards = [
     role: "Marketing Chair",
     icon: [
       {
-        component: <LinkedIn />,
+        component: <FaLinkedIn />,
         href: "www.linkedin.com/in/christinek11",
       },
     ],
@@ -100,11 +100,11 @@ export const boards = [
     role: "Marketing Chair",
     icon: [
       {
-        component: <Github />,
+        component: <FaGithub />,
         href: "https://github.com/johnnyz73",
       },
       {
-        component: <LinkedIn />,
+        component: <FaLinkedIn />,
         href: "https://www.linkedin.com/in/johnny-zhong-5596a1321/",
       },
     ],
