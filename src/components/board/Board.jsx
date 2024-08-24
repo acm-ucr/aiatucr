@@ -16,13 +16,13 @@ const Board = ({ name, image, email, role }) => {
         className="flex flex-row h-full rounded-b-3xl p-3 bg-white"
       >
         <div>
-          <p className="text-sm md:text-xl text-nowrap text-ai-blue-500">
+          <p className="text-sm md:text-xl text-nowrap text-ai-blue-500 font-montserrat font-semibold">
             {name}
           </p>
-          <p className="text-xs md:text-sm">{email}</p>
+          <p className="text-xs md:text-sm font-hubbali">{email}</p>
         </div>
         <div className=" flex flex-col ml-auto pl-3 gap-1.5">
-          <p className="text-xs md:text-lg">{role}</p>
+          <p className="text-xs md:text-lg font-hubbali">{role}</p>
           <div className="flex flex-row w-full justify-end gap-1 text-md md:text-2xl text-ai-blue-500">
             <FaGithub />
             <FaLinkedin />
