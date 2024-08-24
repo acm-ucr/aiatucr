@@ -1,5 +1,5 @@
 import Boards from "@/components/board/Boards";
 const Page = () => {
-  return <Boards/>;
+  return <Boards />;
 };
 export default Page;
