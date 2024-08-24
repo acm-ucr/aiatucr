@@ -9,6 +9,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: "var(--font-montserrat)",
+        hubbali: "var(--font-hubbali)",
+        monda: "var(--font-monda)",
+      },
       colors: {
         ai: {
           "blue-600": "#47759B",
