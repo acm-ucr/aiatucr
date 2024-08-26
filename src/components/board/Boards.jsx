@@ -13,6 +13,8 @@ const Boards = () => {
               image={board.image}
               email={board.email}
               role={board.role}
+              GithubLink={board.GithubLink}
+              LinkedInLink={board.LinkedInLink}
             />
           </div>
         ))}
