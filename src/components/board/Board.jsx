@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Board = ({ name, image, email, role }) => {
+const Board = ({ name, image, email, role, GithubLink, LinkedInLink }) => {
   return (
     <div className="h-5/12 w-full rounded-3xl drop-shadow-lg flex flex-col">
       <div className="flex">
@@ -24,8 +24,13 @@ const Board = ({ name, image, email, role }) => {
         <div className=" flex flex-col ml-auto pl-3 gap-1.5">
           <p className="text-xs md:text-lg">{role}</p>
           <div className="flex flex-row w-full justify-end gap-1 text-md md:text-2xl text-ai-blue-500">
-            <FaGithub />
-            <FaLinkedin />
+            <a href={GithubLink}>
+              {" "}
+              <FaGithub />{" "}
+            </a>
+            <a href={LinkedInLink}>
+              <FaLinkedin />
+            </a>
           </div>
         </div>
       </div>
