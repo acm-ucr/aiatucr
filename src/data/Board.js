@@ -1,53 +1,74 @@
 import Image from "@/public/images/board.webp";
+import Image1 from "@/public/images/gv_head4.jpg";
+import Image2 from "@/public/images/IMG_3859 2.png";
+import Image4 from "@/public/images/IMG_4042 2.png";
+import Image5 from "@/public/images/IMG_6601 (1).png";
+import Image6 from "@/public/images/IMG_9507.jpg";
+import Image7 from "@/public/images/IMG_9453.jpg";
+import Image8 from "@/public/images/JohnnyZMeetTheStaffPhoto.png";
 
 export const boards = [
   {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
-    role: "President",
+    name: "Dr. Greg Ver Steeg",
+    email: "gregory.versteeg@ucr.edu",
+    image: Image1,
+    role: "Club Advisor",
+    GithubLink: "",
+    LinkedInLink: "",
   },
   {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
+    name: "Michael Chen",
+    email: "michaelluochen1@gmail.com",
+    image: Image2,
     role: "President",
+    GithubLink: " https://github.com/mchen04",
+    LinkedInLink: "https://www.linkedin.com/in/michael-luo-chen",
   },
   {
-    name: "John Doe",
+    name: "Emily Ho",
     email: "jdoe123@ucr.edu",
     image: Image,
-    role: "President",
+    role: "Vice President",
   },
   {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
-    role: "President",
+    name: "Sazen Shakya",
+    email: "sazen2015@gmail.com",
+    image: Image4,
+    role: "Finance Chair",
+    GithubLink: "https://github.com/sshakya03",
+    LinkedInLink: "https://www.linkedin.com/in/sazen-shakya/",
   },
   {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
-    role: "President",
+    name: "Freddy Song",
+    email: "fredsong99@gmail.com",
+    image: Image5,
+    role: "Secretary",
+    GithubLink: "https://github.com/MrFrooty",
+    LinkedInLInk: "https://www.linkedin.com/in/freddysong/",
   },
   {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
-    role: "President",
+    name: "Megan Yip",
+    email: " meganyip04@gmail.com",
+    image: Image6,
+    role: "Director of Internal Affairs",
+    GithubLink: "https://github.com/meganyipp",
+    LinkedInLink: "https://www.linkedin.com/in/meganyip04",
   },
   {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
-    role: "President",
+    name: "Christine Kim",
+    email: "ckim365@ucr.edu",
+    image: Image7,
+    role: "Marketing Chair",
+    LinkedInLink: "www.linkedin.com/in/christinek11",
+    GithubLink: "",
   },
   {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
-    role: "President",
+    name: "Johnny Zhong",
+    email: "johnnyzhong2073@gmail.com",
+    image: Image8,
+    role: "Marketing Chair",
+    GithubLink: "https://github.com/johnnyz73",
+    LinkedInLInk: "https://www.linkedin.com/in/johnny-zhong-5596a1321/",
   },
   {
     name: "John Doe",
