@@ -29,35 +29,54 @@ const CalendarEvent = () => {
     const fetchData = async () => {
       try {
         // incorrect api information
-        const response = await fetch(
-          `https://www.googleapis.com/calendar/v3/calendars/${
-            process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL
-          }/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}
-          &singleEvents=true&orderBy=startTime&timeMin=${new Date(
-            new Date().getTime() - 60 * 60 * 24 * 7 * 10 * 1000
-          ).toISOString()}&timeMax=${new Date(
-            new Date().getTime() + 60 * 60 * 24 * 7 * 10 * 1000
-          ).toISOString()}`
-        );
+        // const response = await fetch(
+        //   `https://www.googleapis.com/calendar/v3/calendars/${
+        //     process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL
+        //   }/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}
+        //   &singleEvents=true&orderBy=startTime&timeMin=${new Date(
+        //     new Date().getTime() - 60 * 60 * 24 * 7 * 10 * 1000
+        //   ).toISOString()}&timeMax=${new Date(
+        //     new Date().getTime() + 60 * 60 * 24 * 7 * 10 * 1000
+        //   ).toISOString()}`
+        // );
 
-        const offset = new Date().getTimezoneOffset() * 60000;
-        const data = await response.json();
+        const mockEvents = [
+          {
+            title: "Test Event 1",
+            start: new Date(2024, 7, 29, 14, 0), // Aug 13, 2024, 14:00
+            end: new Date(2024, 7, 29, 15, 0), // Aug 13, 2024, 15:00
+            location: "WCH",
+            allDay: true,
+          },
+          {
+            title: "Test Event 2",
+            start: new Date(2024, 7, 28, 10, 0), // Aug 14, 2024, 10:00
+            end: new Date(2024, 7, 28, 11, 0), // Aug 14, 2024, 11:00
+            location: "WCH",
+            allDay: false,
+          },
+        ];
 
-        if (data.items) {
-          const items = data.items.map((item) => {
-            item.allDay = !item.start.dateTime;
-            (item.start = item.start.dateTime
-              ? new Date(item.start.dateTime)
-              : new Date(new Date(item.start.date).getTime() + offset)),
-              (item.end = new Date(
-                item.end.dateTime || new Date(item.end.date).getTime() + offset
-              )),
-              (item.hidden = false);
+        setEvents(mockEvents);
 
-            return item;
-          });
-          setEvents(items);
-        }
+        // const offset = new Date().getTimezoneOffset() * 60000;
+        // const data = await response.json();
+
+        // if (data.items) {
+        //   const items = data.items.map((item) => {
+        //     item.allDay = !item.start.dateTime;
+        //     (item.start = item.start.dateTime
+        //       ? new Date(item.start.dateTime)
+        //       : new Date(new Date(item.start.date).getTime() + offset)),
+        //       (item.end = new Date(
+        //         item.end.dateTime || new Date(item.end.date).getTime() + offset
+        //       )),
+        //       (item.hidden = false);
+
+        //     return item;
+        //   });
+        //   setEvents(items);
+        // }
       } catch (error) {
         console.error("Error fetching data: ", error);
       }
@@ -68,7 +87,8 @@ const CalendarEvent = () => {
 
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <section className="md:w-1/2 w-2/3 flex justify-center items-center flex-col mt-[2vh]">
+      <section className="md:w-10/12 w-full flex justify-center items-center flex-col mt-[2vh]">
+        <Events events={events} />
         <motion.div
           className="w-full flex justify-center items-center"
           variants={animation}
@@ -77,7 +97,7 @@ const CalendarEvent = () => {
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }}
         >
-          <div className="border-4 border-black flex justify-center h-[90vh] sm:h-60[vh] w-full font-righteous relative">
+          <div className="flex justify-center lg:h-[90vh] h-[60vh] w-full font-righteous relative">
             <Calendar
               date={date}
               className="w-full m-0 p-0 text-md md:text-2xl flex justify-center overflow-hidden"
@@ -93,7 +113,7 @@ const CalendarEvent = () => {
                 header: CustomHeader,
               }}
               onNavigate={(newDate) => {
-                return setDate(newDate);
+                setDate(newDate);
               }}
               dayPropGetter={(event) => {
                 return {
@@ -102,7 +122,7 @@ const CalendarEvent = () => {
                     new Date().toLocaleDateString()
                       ? "!bg-opacity-80"
                       : "!bg-transparent"
-                  } `,
+                  }`,
                   style: {
                     margin: 0,
                     padding: 0,
@@ -115,7 +135,7 @@ const CalendarEvent = () => {
               eventPropGetter={() => {
                 return {
                   className:
-                    "p-0 m-0 !active:ring-0 !focus:outline-0 !bg-black -translate-y-2 h-5",
+                    "!p-0 !active:ring-0 !focus:outline-0 !bg-transparent",
                 };
               }}
               onSelectEvent={(event) => setEvent(event)}
@@ -124,7 +144,6 @@ const CalendarEvent = () => {
           {event && <Modal event={event} setEvent={setEvent} />}
         </motion.div>
       </section>
-      <Events events={events} />
     </div>
   );
 };

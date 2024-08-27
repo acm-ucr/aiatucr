@@ -15,10 +15,10 @@ const NavBar = () => {
 
   return (
     <div className="pt-2 px-8 border-b-8 border-ai-blue-300 sticky top-0 z-30 bg-white flex justify-between items-center text-3xl">
-      <Link href="/" classname="mt-1">
+      <Link href="/" className="mt-1">
         <Image src="/logo.webp" alt="Logo" width={200} height={100} />
       </Link>
-      <div className="text-ai-blue-400 hidden md:flex ml-auto text-xl justify-between lg:w-2/5 md:w-7/12 font-semibold font-monda">
+      <div className="text-ai-blue-400 hidden md:flex ml-auto text-xl justify-between lg:w-2/5 md:w-7/12 font-semibold font-monterssat">
         {items.map((item, index) => (
           <Link
             href={item.link}
@@ -37,7 +37,7 @@ const NavBar = () => {
         <Link
           href="https://www.instagram.com/ai.atucr"
           target="_blank"
-          className="px-3 py-1 text-white bg-ai-blue-400 rounded-full hover:bg-ai-blue-600"
+          className="px-3 py-1 text-white bg-ai-blue-400 rounded-full hover:bg-ai-blue-600 font-montserrat"
         >
           join now
         </Link>
