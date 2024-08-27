@@ -1,11 +1,11 @@
-import Image from "@/public/images/board.webp.png";
-import Image1 from "@/public/images/gregversteeg.jpg";
-import Image2 from "@/public/images/michaelchen.png";
-import Image4 from "@/public/images/sazenshakya.png";
-import Image5 from "@/public/images/freddysong.png";
-import Image6 from "@/public/images/meganyip.jpg";
-import Image7 from "@/public/images/christinekim.jpg";
-import Image8 from "@/public/images/JohnnyZMeetTheStaffPhoto.png";
+import Image from "@/public/images/board.webp.webp";
+import Image1 from "@/public/images/gregversteeg.webp";
+import Image2 from "@/public/images/michaelchen.webp";
+import Image4 from "@/public/images/sazenshakya.webp";
+import Image5 from "@/public/images/freddysong.webp";
+import Image6 from "@/public/images/meganyip.webp";
+import Image7 from "@/public/images/christinekim.webp";
+import Image8 from "@/public/images/JohnnyZMeetTheStaffPhoto.webp";
 
 export const boards = [
   {
