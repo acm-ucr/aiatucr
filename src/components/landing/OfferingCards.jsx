@@ -15,6 +15,7 @@ const OfferingCards = () => {
               title={offering.title}
               icon={offering.icon}
               description={offering.description}
+              column={offering.column}
             />
           ))}
         </div>
