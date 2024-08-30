@@ -48,7 +48,7 @@ const NavBar = () => {
           nav
             ? "transition transform ease-out duration-500 translate-y-[68px] opacity-100"
             : "hidden transition duration-500 ease-in transform -translate-y-24 opacity-0"
-        } md:hidden flex flex-col items-center justify-evenly w-full duration-500 bg-ai-blue-300 top-8 left-0 right-0 -z-10`}
+        } md:hidden flex flex-col items-center justify-evenly w-full duration-500 bg-ai-blue-300 top-4 left-0 right-0 -z-10`}
       >
         {items.map((item, index) => (
           <Link
@@ -65,6 +65,13 @@ const NavBar = () => {
             {item.name}
           </Link>
         ))}
+        <Link
+          href="https://www.instagram.com/ai.atucr"
+          target="_blank"
+          className="hover:text-ai-blue-600 duration-300 border-solid font-semibold py-2 mx-2 text-white"
+        >
+          join now
+        </Link>
       </div>
       <div onClick={handleNav}>
         <FaBars
