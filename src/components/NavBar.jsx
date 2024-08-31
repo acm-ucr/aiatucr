@@ -35,7 +35,7 @@ const NavBar = () => {
           </Link>
         ))}
         <Link
-          href="https://www.instagram.com/ai.atucr"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScvA8tKpAnkRaNk6CqGRCeg7d0uHOxFYjnAfftAyvW4MKDtwQ/viewform"
           target="_blank"
           className="px-3 py-1 text-white bg-ai-blue-400 rounded-full hover:bg-ai-blue-600 font-montserrat"
         >
