@@ -27,5 +27,6 @@ export const offerings = [
     description:
       "Stay informed with the most recent developments, breakthroughs, and job opportunities in the AI realm.",
     icon: <LiaNewspaperSolid className="text-5xl text-ai-blue-500" />,
+    column: "xl:col-start-2 xl:col-end-3",
   },
 ];
