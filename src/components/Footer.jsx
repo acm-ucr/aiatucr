@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaDiscord, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -20,9 +21,15 @@ const Footer = () => {
           <div className="pt-5">aiatucr@gmail.com</div>
         </div>
         <div className="grid content-end justify-items-end space-y-6 2xl:space-y-8 pb-6 2xl:pb-10 pr-4 sm:pr-8 md:pr-10 lg:pr-12 pt-4 lg:pt-10 xl:pt-4">
-          <FaDiscord className="filter invert size-8" />
-          <FaInstagram className="filter invert size-8" />
-          <FaLinkedin className="filter invert size-8" />
+          <Link href="https://discord.com/invite/WePfvpknSj" className="">
+            <FaDiscord className="filter invert size-8" />
+          </Link>
+          <Link href="https://www.instagram.com/ai.atucr/" className="">
+            <FaInstagram className="filter invert size-8" />
+          </Link>
+          <Link href="https://www.linkedin.com/company/ai-at-ucr/" className="">
+            <FaLinkedin className="filter invert size-8" />
+          </Link>
         </div>
       </div>
     </div>
