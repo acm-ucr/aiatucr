@@ -1,4 +1,4 @@
-import Image from "@/public/images/board.webp.webp";
+import Image from "@/public/images/board.webp";
 import Image1 from "@/public/images/gregversteeg.webp";
 import Image2 from "@/public/images/michaelchen.webp";
 import Image4 from "@/public/images/sazenshakya.webp";
@@ -69,11 +69,5 @@ export const boards = [
     role: "Marketing Chair",
     GithubLink: "https://github.com/johnnyz73",
     LinkedInLInk: "https://www.linkedin.com/in/johnny-zhong-5596a1321/",
-  },
-  {
-    name: "John Doe",
-    email: "jdoe123@ucr.edu",
-    image: Image,
-    role: "President",
   },
 ];
