@@ -28,11 +28,17 @@
 }
 
 .rbc-month-row {
-  border: none;
+  border: 1px solid black;
+  padding-left: 2px;
+}
+
+.rbc-month-view .rbc-day-bg {
+  border-right: 1px solid black !important;
+  padding-left: 2px;
 }
 
 .rbc-row {
-  padding: 7px;
+  padding-top: 7px;
   text-align: center;
 }
 

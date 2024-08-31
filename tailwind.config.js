@@ -9,6 +9,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: "var(--font-montserrat)",
+        hubbali: "var(--font-hubbali)",
+        monda: "var(--font-monda)",
+      },
       colors: {
         ai: {
           "blue-600": "#47759B",
@@ -19,6 +24,10 @@ module.exports = {
           black: "#2E2E2E",
           gray: "#323232",
         },
+      },
+      boxShadow: {
+        "top-bottom":
+          "0 -12px 16px -4px rgba(0, 0, 0, 0.15), 0 12px 16px -4px rgba(0, 0, 0, 0.15)",
       },
     },
   },
