@@ -43,15 +43,15 @@ const CalendarEvent = () => {
         const mockEvents = [
           {
             title: "Test Event 1",
-            start: new Date(2024, 7, 13, 14, 0), // Aug 13, 2024, 14:00
-            end: new Date(2024, 7, 13, 15, 0), // Aug 13, 2024, 15:00
+            start: new Date(2024, 7, 29, 14, 0), // Aug 13, 2024, 14:00
+            end: new Date(2024, 7, 29, 15, 0), // Aug 13, 2024, 15:00
             location: "WCH",
             allDay: true,
           },
           {
             title: "Test Event 2",
-            start: new Date(2024, 7, 14, 10, 0), // Aug 14, 2024, 10:00
-            end: new Date(2024, 7, 14, 11, 0), // Aug 14, 2024, 11:00
+            start: new Date(2024, 7, 28, 10, 0), // Aug 14, 2024, 10:00
+            end: new Date(2024, 7, 28, 11, 0), // Aug 14, 2024, 11:00
             location: "WCH",
             allDay: false,
           },
@@ -88,6 +88,7 @@ const CalendarEvent = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       <section className="md:w-10/12 w-full flex justify-center items-center flex-col mt-[2vh]">
+        <Events events={events} />
         <motion.div
           className="w-full flex justify-center items-center"
           variants={animation}
@@ -143,7 +144,6 @@ const CalendarEvent = () => {
           {event && <Modal event={event} setEvent={setEvent} />}
         </motion.div>
       </section>
-      <Events events={events} />
     </div>
   );
 };
