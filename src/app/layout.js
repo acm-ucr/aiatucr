@@ -1,10 +1,27 @@
 /* eslint-disable new-cap */
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Montserrat, Hubballi, Monda } from "next/font/google";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-montserrat",
+  weight: "700",
+});
+const hubbali = Hubballi({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-hubbali",
+  weight: "400",
+});
+const monda = Monda({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-monda",
+  weight: "400",
+});
 
 export const metadata = {
   title: "AI@UCR Website",
@@ -15,7 +32,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} w-full h-screen`}>
+      <body
+        className={`${montserrat.variable} ${hubbali.variable} ${monda.variable} w-full h-screen`}
+      >
         <NavBar />
         {children}
         <Footer />
