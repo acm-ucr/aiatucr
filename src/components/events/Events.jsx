@@ -55,8 +55,7 @@ const Events = ({ button = true, events }) => {
                   .toString()
                   .padStart(2, "0");
                 const endPeriod = event.end.getHours() >= 12 ? "PM" : "AM";
-                formattedString = `${startHours}:${startMinutes} ${startPeriod} - ${endHours}:${endMinutes}
-        ${endPeriod}`;
+                formattedString = `${startHours}:${startMinutes} ${startPeriod} - ${endHours}:${endMinutes} ${endPeriod}`;
               }
 
               return (

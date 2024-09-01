@@ -1,4 +1,4 @@
-const Card = ({ month, day, hour, name, location, description }) => {
+const Card = ({ month, day, time, name, location, description }) => {
   return (
     <div className="rounded-2xl flex flex-row justify-center drop-shadow-2xl mx-auto w-6/12">
       <div className="bg-ai-blue-400 flex flex-col justify-center rounded-l-2xl text-white py-4 w-1/5 font-semibold font-montserrat">
@@ -9,7 +9,7 @@ const Card = ({ month, day, hour, name, location, description }) => {
           {day}
         </div>
         <div className="font-russo font-medium text-center md:text-xl py-2">
-          {hour}
+          {time}
         </div>
       </div>
       <div className="bg-white rounded-r-2xl w-9/12 text-[#303030] pt-4 pb-4">
