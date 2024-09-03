@@ -17,7 +17,7 @@ const Board = ({ name, image, email, role, GithubLink, LinkedInLink }) => {
           <p className="text-sm md:text-xl text-ai-blue-500 font-montserrat font-semibold">
             {name}
           </p>
-          <p className="text-xs md:text-sm font-hubbali">{email}</p>
+          <p className="text-xs font-hubbali">{email}</p>
         </div>
         <div className=" flex flex-col ml-auto pl-3 gap-1.5">
           <p className="text-xs md:text-lg font-hubbali">{role}</p>
