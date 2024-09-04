@@ -32,7 +32,6 @@
 }
 
 .rbc-row {
-  padding: 7px;
   text-align: center;
 }
 
@@ -43,6 +42,7 @@
 .rbc-date-cell {
   text-align: right;
   font-size: x-small;
+  font-family: var(--font-montserrat);
 }
 
 @media only screen and (min-width: 1024px) {
