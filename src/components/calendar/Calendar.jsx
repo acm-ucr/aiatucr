@@ -43,16 +43,22 @@ const CalendarEvent = () => {
         const mockEvents = [
           {
             title: "Test Event 1",
-            start: new Date(2024, 7, 29, 14, 0), // Aug 13, 2024, 14:00
-            end: new Date(2024, 7, 29, 15, 0), // Aug 13, 2024, 15:00
+            start: new Date(2024, 8, 9, 14, 0), // Aug 13, 2024, 14:00
+            end: new Date(2024, 8, 9, 15, 0), // Aug 13, 2024, 15:00
+            summary: "Event Name",
             location: "WCH",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
             allDay: true,
           },
           {
             title: "Test Event 2",
-            start: new Date(2024, 7, 28, 10, 0), // Aug 14, 2024, 10:00
-            end: new Date(2024, 7, 28, 11, 0), // Aug 14, 2024, 11:00
+            start: new Date(2024, 8, 8, 12, 0), // Aug 14, 2024, 10:00
+            end: new Date(2024, 8, 8, 14, 0), // Aug 14, 2024, 11:00
+            summary: "Event Name",
             location: "WCH",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
             allDay: false,
           },
         ];
