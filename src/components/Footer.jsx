@@ -21,24 +21,15 @@ const Footer = () => {
           <div className="pt-8 sm:pt-7 md:pt-5">aiatucr@gmail.com</div>
         </div>
         <div className="grid content-end justify-items-end space-y-6 pb-6 pr-4 sm:pr-8 md:pr-10 lg:pr-8 pt-4 lg:pt-10 xl:pt-4">
-          <Link
-            href="https://discord.com/invite/WePfvpknSj"
-            target="_blank"
-            className=""
-          >
+          <Link href="https://discord.com/invite/WePfvpknSj" target="_blank">
             <FaDiscord className="filter invert size-8" />
           </Link>
-          <Link
-            href="https://www.instagram.com/ai.atucr/"
-            target="_blank"
-            className=""
-          >
+          <Link href="https://www.instagram.com/ai.atucr/" target="_blank">
             <FaInstagram className="filter invert size-8" />
           </Link>
           <Link
             href="https://www.linkedin.com/company/ai-at-ucr/"
             target="_blank"
-            className=""
           >
             <FaLinkedin className="filter invert size-8" />
           </Link>
