@@ -1,8 +1,7 @@
-import { PiBrainBold } from "react-icons/pi";
 import { FaComputer } from "react-icons/fa6";
 
 const CustomEvent = ({ event }) => {
-  const Icon = event.icon === "brain" ? PiBrainBold : FaComputer;
+  const Icon = FaComputer;
   const startTime = event.start
     ? new Date(event.start).toLocaleTimeString(navigator.language, {
         hour: "2-digit",
