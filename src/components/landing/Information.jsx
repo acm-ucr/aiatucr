@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aiAtUcrLogo from "@/public/transparent_logo_1.webp";
+import aiAtUcrLogo from "@/public/landing/transparent_logo_1.webp";
 
 const Information = () => {
   return (
