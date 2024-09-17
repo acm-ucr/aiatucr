@@ -1,20 +1,32 @@
 import Header from "@/components/Header";
 import ProjectCardRight from "@/components/projects/ProjectCardRight";
 import ProjectCardLeft from "@/components/projects/ProjectCardLeft";
+import { PROJECTS } from "@/data/Projects";
 
 const Page = () => {
   return (
     <>
       <Header text={"PROJECTS"} />
       <div>
-        <ProjectCardRight
-          projectName="Project Name"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCardLeft
-          projectName="Project Name"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
+        {PROJECTS.map((project, index) =>
+          index % 2 === 0 ? (
+            <ProjectCardRight
+              key={index}
+              projectName={project.name}
+              description={project.description}
+              leftImage={project.leftImage}
+              rightImage={project.rightImage}
+            />
+          ) : (
+            <ProjectCardLeft
+              key={index}
+              projectName={project.name}
+              description={project.description}
+              leftImage={project.leftImage}
+              rightImage={project.rightImage}
+            />
+          )
+        )}
       </div>
     </>
   );
