@@ -1,8 +1,7 @@
-import { PiBrainBold } from "react-icons/pi";
 import { FaComputer } from "react-icons/fa6";
 
 const CustomEvent = ({ event }) => {
-  const Icon = event.icon === "brain" ? PiBrainBold : FaComputer;
+  const Icon = FaComputer;
   const startTime = event.start
     ? new Date(event.start).toLocaleTimeString(navigator.language, {
         hour: "2-digit",
@@ -20,19 +19,19 @@ const CustomEvent = ({ event }) => {
     : "N/A";
 
   return (
-    <div className="font-playfair md:text-xs sm:text-[10px] text-[7px] flex justify-start bg-ai-blue-500 p-2 rounded-lg">
-      <div className="relative flex items-center">
+    <div className="font-hubbali text-xs flex justify-start bg-ai-blue-500  rounded-lg">
+      <div className="relative items-center pl-1 hidden md:block">
         <Icon className="text-inherit mr-1 absolute top-0.5" />
       </div>
-      <div className="flex-1 ml-4">
-        <div className="inline-flex items-start">{event.title}</div>
-        <div className="mt-1 text-left">
+      <div className="flex flex-col pl-1 md:pl-4">
+        <div className="inline-flex items-start text-wrap">{event.summary}</div>
+        <div className="mt-1 hidden md:block">
           {!event.allDay && (
-            <div>
-              {startTime}-{endTime}- {event.location}
-            </div>
+            <p>
+              {startTime}-{endTime} - {event.location}
+            </p>
           )}
-          {event.allDay && <div>{event.location}</div>}
+          {event.allDay && <p>{event.location}</p>}
         </div>
       </div>
     </div>

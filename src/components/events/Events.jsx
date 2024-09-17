@@ -20,7 +20,7 @@ const Events = ({ button = true, events }) => {
         whileInView="show"
       ></motion.div>
       <motion.div
-        className="space-y-24 mt-32 mb-8 justify-center items-center flex flex-col"
+        className="space-y-10 mb-8 justify-center items-center flex flex-col"
         variants={animation}
         transition={{ delay: 0.4 }}
         initial="hidden"
@@ -55,8 +55,7 @@ const Events = ({ button = true, events }) => {
                   .toString()
                   .padStart(2, "0");
                 const endPeriod = event.end.getHours() >= 12 ? "PM" : "AM";
-                formattedString = `${startHours}:${startMinutes} ${startPeriod} - ${endHours}:${endMinutes}
-        ${endPeriod}`;
+                formattedString = `${startHours}:${startMinutes} ${startPeriod} - ${endHours}:${endMinutes} ${endPeriod}`;
               }
 
               return (
@@ -71,11 +70,12 @@ const Events = ({ button = true, events }) => {
                   location={event.location}
                   link={event.link}
                   description={event.description}
+                  title={event.title}
                 />
               );
             })
         ) : (
-          <p className="text-lg w-full text-center font-bold text-black mt-5 font-russo">
+          <p className="text-lg w-full text-center font-bold text-ai-blue-400 font-russo">
             no upcoming events
           </p>
         )}
