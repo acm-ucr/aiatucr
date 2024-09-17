@@ -1,4 +1,4 @@
-import EmilyHo from "@/public/board/emilyho.jpg";
+import EmilyHo from "@/public/board/emilyho.webp";
 import GregoryVerSteeg from "@/public/board/gregversteeg.webp";
 import MichaelChen from "@/public/board/michaelchen.webp";
 import SazenShakya from "@/public/board/sazenshakya.webp";
