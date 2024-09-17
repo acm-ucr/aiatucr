@@ -1,7 +1,7 @@
-import philip1 from "@/public/images/philip1.png";
-import philip2 from "@/public/images/philip2.png";
-import newsGenie1 from "@/public/images/news-genie1.png";
-import newsGenie2 from "@/public/images/news-genie2.png";
+import philip1 from "@/public/images/philip1.webp";
+import philip2 from "@/public/images/philip2.webp";
+import newsGenie1 from "@/public/images/news-genie1.webp";
+import newsGenie2 from "@/public/images/news-genie2.webp";
 
 export const PROJECTS = [
   {
