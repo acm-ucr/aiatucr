@@ -25,7 +25,7 @@ const CustomEvent = ({ event }) => {
         <Icon className="text-inherit mr-1 absolute top-0.5" />
       </div>
       <div className="flex flex-col pl-1 md:pl-4">
-        <div className="inline-flex items-start text-wrap">{event.title}</div>
+        <div className="inline-flex items-start text-wrap">{event.summary}</div>
         <div className="mt-1 hidden md:block">
           {!event.allDay && (
             <p>
