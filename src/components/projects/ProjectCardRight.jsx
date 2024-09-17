@@ -1,4 +1,4 @@
-import projectCard from "@/public/images/projectCard.webp";
+import projectCard from "@/public/projects/projectCard.webp";
 import Image from "next/image";
 
 const ProjectCardRight = ({
