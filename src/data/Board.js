@@ -3,7 +3,6 @@ import GregoryVerSteeg from "@/public/board/gregversteeg.webp";
 import MichaelChen from "@/public/board/michaelchen.webp";
 import SazenShakya from "@/public/board/sazenshakya.webp";
 import FreddySong from "@/public/board/freddysong.webp";
-import MeganYip from "@/public/board/meganyip.webp";
 import ChristineKim from "@/public/board/christinekim.webp";
 import JohnnyZ from "@/public/board/johnnyz.webp";
 
@@ -45,14 +44,6 @@ export const boards = [
     role: "Secretary",
     GithubLink: "https://github.com/MrFrooty",
     LinkedInLink: "https://www.linkedin.com/in/freddysong/",
-  },
-  {
-    name: "Megan Yip",
-    email: " meganyip04@gmail.com",
-    image: MeganYip,
-    role: "Director of Internal Affairs",
-    GithubLink: "https://github.com/meganyipp",
-    LinkedInLink: "https://www.linkedin.com/in/meganyip04",
   },
   {
     name: "Christine Kim",
